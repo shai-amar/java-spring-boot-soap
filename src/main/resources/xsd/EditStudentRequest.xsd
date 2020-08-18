@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="http://example.com/webservice/editstudent">
+
+    <xs:element name="EditStudentRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element type="xs:byte" name="id"/>
+                <xs:element type="xs:string" name="firstName"/>
+                <xs:element type="xs:string" name="lastName"/>
+                <xs:element type="xs:string" name="address"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EditStudentResponse">
+        <xs:complexType>
+            <xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
