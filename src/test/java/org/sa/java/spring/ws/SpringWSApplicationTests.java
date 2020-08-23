@@ -1,10 +1,10 @@
-package org.sa.java.spring.javaspringbootsoap;
+package org.sa.java.spring.ws;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JavaSpringBootSoapApplicationTests {
+class SpringWSApplicationTests {
 
 	@Test
 	void contextLoads() {
